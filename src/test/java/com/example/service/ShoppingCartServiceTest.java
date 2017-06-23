@@ -171,7 +171,7 @@ public class ShoppingCartServiceTest {
 	}
 
 	
-	@Test
+	//@Test
 	public void testPlaceOrder() {
 
 		Product product1 = new Product(100, "Rolax Watch", 780000.00, 1);
