@@ -9,8 +9,6 @@ public interface ShoppingCartService {
 
 	int countItems();
 
-int countItemsDemo();
-
 	double totalPrice();
 
 	void removeItem(int pid) throws ProductNotFoundException;

@@ -38,16 +38,6 @@ public class ShoppingCartServiceImpl implements ShoppingCartService {
 		return count;
 	}
 
-@Override
-	public int countItemsDemo(){
-		int count = 0;
-		Collection<Product> products = cart.values();
-		for(Product product : products){
-			count = count + product.getQty();
-		}
-		return count;
-	}
-
 	@Override
 	public double totalPrice(){
 		double total = 0;
