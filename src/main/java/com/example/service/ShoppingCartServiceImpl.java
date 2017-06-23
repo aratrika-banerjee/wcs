@@ -76,6 +76,7 @@ public class ShoppingCartServiceImpl implements ShoppingCartService {
 	public String placeOrder(){
 		//DB logic
 		System.out.println("Order has been placed!!!");
+		System.out.println("Your Order will be delivered shortly");
 		String orderId =""+System.nanoTime();
 		orderId ="O"+orderId.substring(2,10);
 		return orderId;
